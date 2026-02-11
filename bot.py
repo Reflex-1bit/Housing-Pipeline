@@ -16,7 +16,7 @@ from config import Config
 from database import DatabaseManager
 from scraper import HousingScraper
 from utils import format_listing, validate_price_range
-
+# holy sheeeeeeeeeeeeeet here we go
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
