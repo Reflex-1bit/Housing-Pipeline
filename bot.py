@@ -7,7 +7,7 @@ for students by scraping and indexing housing listings from community sources.
 Author: Aditya Sharma
 Repository: github.com/Reflex-1bit
 """
-
+## quick imports
 import discord
 from discord.ext import commands
 import asyncio
@@ -45,7 +45,8 @@ class HousingBot(commands.Bot):
         
         self.db = DatabaseManager(Config.DATABASE_URL)
         self.scraper = HousingScraper()
-        
+
+    # come check in like 2 wweks
     async def setup_hook(self):
         """Initialize database and start background tasks."""
         logger.info("Initializing database...")
